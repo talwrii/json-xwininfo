@@ -1,4 +1,6 @@
 # json-xwininfo
+[@readwithai](https://x.com/readwithai) - [X](https://x.com/readwithai) - [blog](https://readwithai.substack.com/) - [machine-aid reading](https://www.reddit.com/r/machineAidedReading/)
+
 Get information about an X11 window in machine-readable JSON. This is similar to the `xwininfo` information
 
 # Installation
@@ -20,7 +22,6 @@ json-xwininfo --focused
 ```
 
 Most programming languages provides facilities to easily parse `JSON`. For using this information at the moment line you may wish to use the [jq](https://github.com/jqlang/jq).
-
 
 # Alternatives and prior work
 This tool is obviously inspired by [xwininfo](https://packages.debian.org/buster/x11-utils) and at the moment wraps this tool and parses the output. This tool usings [Xlib](https://github.com/python-xlib/python-xlib). You may prefer to use this library to obtain this information rather than using this tool for more "self-contained" pieces of software.
