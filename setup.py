@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='json-xwininfo',
-    version="1.0.0",
+    version="1.1.0",
     author='@readwithai',
     long_description_content_type='text/markdown',
     author_email='talwrii@gmail.com',
