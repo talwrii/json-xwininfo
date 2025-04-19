@@ -26,6 +26,8 @@ Most programming languages provides facilities to easily parse `JSON`. For using
 # Alternatives and prior work
 This tool is obviously inspired by [xwininfo](https://packages.debian.org/buster/x11-utils) and at the moment wraps this tool and parses the output. This tool usings [Xlib](https://github.com/python-xlib/python-xlib). You may prefer to use this library to obtain this information rather than using this tool for more "self-contained" pieces of software.
 
+The command-line tool [jc](https://github.com/kellyjonbrazil/jc) is designed to convert the output of a number of command-line tools to `JSON`. It does not support `xwininfo` at the moment, and this tool contains additional functionality - specifically to select the currently focused window, but support could be easily added and may be added in the future.
+
 # Motivation
 I was experimenting with displaying information at particular positions on the screen - such as the top left corner of the window. The shell code necessary to do this was a little too involved to count as a good idea so I decided to wrap this into tool.
 
